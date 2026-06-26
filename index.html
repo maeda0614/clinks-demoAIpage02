@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLINKS採用総合TOP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <span class="bg-word">AI DRIVEN COMPANY</span>
+    <canvas id="aiCanvas"></canvas>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#"><img src="assets/logo.png" alt="CLINKS AI DRIVEN COMPANY"></a>
+    <a class="header-contact" href="#contact">総合お問い合わせ</a>
+  </header>
+
+  <main>
+<section class="fv">
+
+    <video class="fv-video" autoplay muted loop playsinline>
+        <source src="assets/video/24532_1280x720.mp4" type="video/mp4">
+    </video>
+
+    <div class="fv-overlay"></div>
+
+    <div class="fv-content">
+        <span class="fv-label">RECRUIT PORTAL</span>
+        <h1>AIとともに、次のキャリアを切り拓く</h1>
+        <p>CLINKS採用総合TOP</p>
+    </div>
+
+    <a class="scroll-indicator" href="#entry" aria-label="採用サイトを選ぶへ移動">
+        <span>採用サイトを選ぶ</span>
+        <em>SCROLL</em>
+    </a>
+
+</section>
+
+    <section id="entry" class="entry section-wrap reveal">
+      <p class="section-label">ENTRY ROUTE</p>
+      <h2>採用サイトを選ぶ</h2>
+      <div class="card-grid">
+        <a class="entry-card" href="#">
+          <span>中途経験者採用</span>
+          <img src="assets/card_mid_experienced.png" alt="中途経験者採用">
+          <em>詳しく見る</em>
+        </a>
+        <a class="entry-card" href="#">
+          <span>中途未経験者採用</span>
+          <img src="assets/card_mid_inexperienced.jpg" alt="中途未経験者採用">
+          <em>詳しく見る</em>
+        </a>
+        <a class="entry-card" href="#">
+          <span>新卒採用</span>
+          <img src="assets/card_newgrad.jpg" alt="新卒採用">
+          <em>詳しく見る</em>
+        </a>
+        <a class="entry-card" href="#">
+          <span>在宅ITエンジニア採用</span>
+          <img src="assets/card_remote.jpg" alt="在宅ITエンジニア採用">
+          <em>詳しく見る</em>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-wrap reveal">
+      <div class="form-box">
+        <p class="section-label">CONTACT</p>
+        <h2>採用 総合お問い合わせフォーム</h2>
+        <p class="lead">採用に関するご質問・ご相談は、以下よりお問い合わせください。</p>
+
+        <form>
+          <div class="form-grid">
+            <label>お名前<span>必須</span><input type="text" placeholder="山田　太郎"></label>
+            <label>ふりがな<span>必須</span><input type="text" placeholder="やまだ　たろう"></label>
+            <label>学校、会社名<input type="text" placeholder="学校名または会社名"></label>
+            <label>ご住所<input type="text" placeholder="東京都中央区〇〇"></label>
+            <label>電話番号<span>必須</span><input type="tel" placeholder="0312345678"></label>
+            <label>メールアドレス<span>必須</span><input type="email" placeholder="example@clinks.jp"></label>
+            <label>メールアドレス確認用<span>必須</span><input type="email" placeholder="確認のため再入力してください"></label>
+            <label>お問い合わせ件名<span>必須</span>
+              <select>
+                <option>選択してください</option><option>新卒採用について</option><option>中途採用について</option><option>経験者採用について</option><option>在宅ITエンジニア社員採用について</option><option>インターンシップについて</option><option>説明会について</option><option>研修について</option><option>選考・面接について</option><option>その他のお問い合わせ</option>
+              </select>
+            </label>
+          </div>
+          <label class="full">お問い合わせ内容<span>必須</span><textarea placeholder="お問い合わせ内容をご入力ください"></textarea></label>
+
+          <div class="privacy-text">
+            <p>ご入力いただいた内容には間違えがなければ、下記の個人情報の取り扱いにご同意のうえ、「入力内容を確認」ボタンをクリックしてください。</p>
+            <ul>
+              <li>取得した個人情報は、お問い合わせへの回答および採用選考に使用します。</li>
+              <li>ご本人の同意なく第三者へ提供することはありません。</li>
+              <li>個人情報の開示・訂正・削除をご希望の場合はお問い合わせください。</li>
+            </ul>
+          </div>
+
+          <label class="agree"><input type="checkbox" checked>同意する</label>
+          <button type="submit">入力内容を確認</button>
+        </form>
+
+        <div class="pmark">
+          <img src="assets/privacymark.png" alt="プライバシーマーク">
+          <p><strong>プライバシーマーク制度とプライバシーポリシーについて</strong><br>CLINKS株式会社　個人情報保護管理者：小林 裕輔</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/logo.png" alt="CLINKS">
+    <nav><a href="#">中途経験者採用</a><a href="#">中途未経験者採用</a><a href="#">新卒採用</a><a href="#">在宅ITエンジニア採用</a><a href="#contact">採用総合お問い合わせ</a></nav>
+    <small>Copyright CLINKS Inc. All Rights Reserved.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
