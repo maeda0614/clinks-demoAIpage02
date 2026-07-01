@@ -1342,3 +1342,14 @@ body.loaded .scroll-indicator{
   border-color:rgba(243,152,0,.22) !important;
   box-shadow:0 10px 24px rgba(243,152,0,.22) !important;
 }
+
+/* Force FV video zoom */
+.fv{overflow:hidden !important;}
+.fv-video{
+width:100% !important;
+height:100% !important;
+object-fit:cover !important;
+object-position:center center !important;
+transform:scale(1.2) !important;
+animation:none !important;
+}
